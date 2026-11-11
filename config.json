@@ -1,11 +1,10 @@
 {
-  "pause": true,
+  "pause": false,
   "tidszone": "Europe/Copenhagen",
   "tid_hverdag": "19:00",
   "tid_weekend": "10:00",
   "max_forsinkelse_timer": 12,
   "pages_base_url": "https://hverdag-med-ai.github.io/hverdag-med-ai",
   "api_version": "v25.0",
-  "api_host": "https://graph.facebook.com",
-  "pause_grund": "Instagram begrænsede kontoen (2026-11-04 18:56 UTC). Sæt pause til false, når det er gået et par dage."
+  "api_host": "https://graph.facebook.com"
 }
