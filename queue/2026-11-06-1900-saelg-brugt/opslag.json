@@ -1,6 +1,6 @@
 {
   "tidspunkt": "2026-11-12T10:38:00+01:00",
-  "status": "klar",
+  "status": "fejl",
   "type": "karrusel",
   "titel": "Sælg dine brugte ting hurtigere",
   "billeder": [
@@ -12,6 +12,6 @@
     "06.jpg"
   ],
   "billedtekst": "Oprydning og lidt ekstra i lommen på samme tid 📦\n\nEn god annonce gør det nemmere for køberen at sige ja. Lad en AI-assistent skrive første udkast, og tilpas det, så det passer præcis til din ting.\n\n🔗 Kopiér prompten med ét tryk via linket i bio.\n\nHvad skal ud af gemmerne hos dig?\n\n#brugtsalg #oprydning #genbrug #AItips #kunstigintelligens #smartehverdag",
-  "note": "Instagram svarede 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AaLtq_bMoUaYBEBBvnMphxB\"}}",
-  "forsøg": 2
+  "note": "Instagram svarede 400: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A8_csqLYjLFRuTJiSgOPELL\"}}",
+  "forsøg": 3
 }
