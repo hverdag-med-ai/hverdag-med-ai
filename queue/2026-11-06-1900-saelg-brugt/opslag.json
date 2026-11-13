@@ -1,6 +1,6 @@
 {
   "tidspunkt": "2026-11-13T11:49:00+01:00",
-  "status": "klar",
+  "status": "postet",
   "type": "karrusel",
   "titel": "Sælg dine brugte ting hurtigere",
   "billeder": [
@@ -12,5 +12,7 @@
     "06.jpg"
   ],
   "billedtekst": "Oprydning og lidt ekstra i lommen på samme tid 📦\n\nEn god annonce gør det nemmere for køberen at sige ja. Lad en AI-assistent skrive første udkast, og tilpas det, så det passer præcis til din ting.\n\n🔗 Kopiér prompten med ét tryk via linket i bio.\n\nHvad skal ud af gemmerne hos dig?\n\n#brugtsalg #oprydning #genbrug #AItips #kunstigintelligens #smartehverdag",
-  "note": ""
+  "note": "Instagram meldte fejl, men opslaget kom ud: Instagram svarede 403: {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":2207051,\"is_transient\":false,\"error_user_msg\":\"We restrict certain activ",
+  "instagram_id": "17909901045602559",
+  "postet": "2026-11-13T10:52:13+00:00"
 }
