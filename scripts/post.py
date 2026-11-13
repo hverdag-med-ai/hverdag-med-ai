@@ -187,7 +187,7 @@ def main():
                         post["instagram_id"] = existing
                         post["postet"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
                         post["note"] = f"Instagram meldte fejl, men opslaget kom ud: {str(e)[:200]}"
-                        print(f"{folder.name}: postet trods fejlbesked ({existing})")
+                        print(f"{folder.name}: postet trods fejlbesked ({existing}). Instagram meldte begrænsning, men opslaget kom ud, så posting fortsætter.")
                     else:
                         post["forsøg"] = post.get("forsøg", 0) + 1
                         post["note"] = str(e)
@@ -195,7 +195,8 @@ def main():
                             post["status"] = "fejl"
                         print(f"{folder.name}: fejl ({e})")
                         failed = True
-                    if is_block(e):
+                    # Kun pause, hvis opslaget faktisk IKKE kom ud. Kom det ud trods fejlbesked, fortsætter vi.
+                    if is_block(e) and not existing:
                         pause_all(f"Instagram begrænsede kontoen ({datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC). Sæt pause til false, når det er gået et par dage.")
                         print("Instagram begrænser kontoen. Al posting er sat på pause i config.json.")
                         f.write_text(json.dumps(post, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
