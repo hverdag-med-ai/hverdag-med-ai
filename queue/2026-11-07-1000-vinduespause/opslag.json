@@ -1,12 +1,12 @@
 {
   "tidspunkt": "2026-11-14T19:00:00+01:00",
-  "status": "klar",
+  "status": "fejl",
   "type": "billede",
   "titel": "Sæt 10 minutter af i dag til bare at kigge ud ad vinduet. Hjernen har også brug for pauser.",
   "billeder": [
     "01.jpg"
   ],
   "billedtekst": "Lørdag, regn på ruden og en kop te ☕\n\nPrøv at sætte 10 minutter af til at lave ingenting. Ingen telefon, ingen to-do-liste. Bare dig, en varm kop og udsigten.\n\nHvad laver du helst, når du skal slappe af?\n\n#pause #hygge #godevaner #efterår #hverdagstips #smartehverdag",
-  "note": "Instagram svarede 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Friday, 13-Nov-26 04:00:00 PST. The current time is Saturday, 14-Nov-26 11:41:59 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"AnuHWHfuhM2N7BTA7YV85-G\"}}",
-  "forsøg": 2
+  "note": "Instagram svarede 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Friday, 13-Nov-26 04:00:00 PST. The current time is Saturday, 14-Nov-26 12:37:43 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"AOHoYxfs8X8bkg2f6QJsTBo\"}}",
+  "forsøg": 3
 }
