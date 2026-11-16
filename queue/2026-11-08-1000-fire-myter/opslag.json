@@ -1,6 +1,6 @@
 {
   "tidspunkt": "2026-11-16T19:00:00+01:00",
-  "status": "klar",
+  "status": "fejl",
   "type": "karrusel",
   "titel": "4 myter om AI, du kan glemme",
   "billeder": [
@@ -12,6 +12,6 @@
     "06.jpg"
   ],
   "billedtekst": "Der findes mange myter om AI 🤔\n\nDen gode nyhed er, at det er langt nemmere at komme i gang, end mange tror. Du skal hverken kunne kode eller skrive på engelsk.\n\nHvilken myte troede du selv på?\n\n#AItips #kunstigintelligens #myter #lærAI #smartehverdag #hverdagstips",
-  "note": "Instagram svarede 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Friday, 13-Nov-26 04:00:00 PST. The current time is Monday, 16-Nov-26 11:55:54 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"AJG0BmqGm8TlPwucHsPWbBc\"}}",
-  "forsøg": 2
+  "note": "Instagram svarede 400: {\"error\":{\"message\":\"Error validating access token: Session has expired on Friday, 13-Nov-26 04:00:00 PST. The current time is Monday, 16-Nov-26 12:50:07 PST.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":463,\"fbtrace_id\":\"ALmlN1xNPs_VSKap-BMJSsl\"}}",
+  "forsøg": 3
 }
